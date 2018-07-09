@@ -57,8 +57,7 @@ describe 'What should be inside of /elephants' do
   end
 
   context 'inside of /elephants/painters should be' do
-    it "the Painting Elephant" do
-      expect(File).to exist('./elephants/painters/painting-elephants.jpg'), "\nDid you place painting-elephants.jpg inside the /elephants/painters/ folder?"
-    end
+    
   end
 end
+
